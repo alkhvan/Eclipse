@@ -21,22 +21,22 @@ public class Person extends Object {
         Person empty = new Person();
         empty =null;
         Person person1 = new Person();
-            person1.setVorname ("Albert");
-            person1.setName ("Brown");
+        person1.setVorname ("Albert");
+        person1.setName ("Brown");
         person1.setAge(2);
-            Person person2 = new Person();
-            person2.setVorname ("Mike");
+        Person person2 = new Person();
+        person2.setVorname ("Mike");
         person2.setAge(3);
-            person2.setName ("Jagger");
+        person2.setName ("Jagger");
         Person person3 = new Person();
         person3.setVorname ("Albert");
         person3.setName ("Brown");
         person3.setAge(2);
         person1=person3;
-            if (person1==person2){
-                System.out.println("person1 and person2 are equal");
-            } else
-            {System.out.println("person1 and person2 are NOT equal");}
+        if (person1==person2){
+            System.out.println("person1 and person2 are equal");
+        } else
+        {System.out.println("person1 and person2 are NOT equal");}
         if (person1==person3){
             System.out.println("person1 and person3 are equal");
         } else
@@ -64,7 +64,7 @@ public class Person extends Object {
         System.out.println(person1.name +" "+person1.vorname);
         System.out.println(person2.name +" "+person2.vorname);
 
-        }
+    }
 
 
 
@@ -78,21 +78,21 @@ public class Person extends Object {
         }
         if (getClass() != p.getClass()) {
             return false;
-    }
-    //    if ((this.getVorname())!= (p.getVorname())) {
-    //        return false;
-    //    }
+        }
+        //    if ((this.getVorname())!= (p.getVorname())) {
+        //        return false;
+        //    }
         //    if ((this.getName())!= (p.getName())) {
         //        return false;
         //    }
-          else if (this.name.equals(p.name)&& this.name.equals(p.name)) // type check
+        else if (this.name.equals(p.name)&& this.name.equals(p.name)) // type check
         {
             return false;
         }
         else {
             return false;
+        }
     }
-}
 
     public class Objects {
 
@@ -104,4 +104,3 @@ public class Person extends Object {
 
 
 }
-
